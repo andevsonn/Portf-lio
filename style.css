@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Teko:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #ffffff 16.62%, #ffffff 85.61%);
+  font-family: 'Teko', sans-serif;
+}
+
+
+/*Cabeçalho*/
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+  background-color: black;
+  color: white;
+}
+
+
+.card-img{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin: 3rem 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s ease-in-out; 
+  padding-bottom: 50px;  
+}
+
+.card-wrapper-img{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+
+.card-wrapper-img img{
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing:  4px;
+  margin: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.card-wrapper-img a{
+  font-size: 0;
+  visibility: visible;
+  opacity: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.5s ease-in-out;
+}
+
+
+
+
+.card-img.card-img:hover>.card-wrapper-img a{
+  opacity: 1;
+  visibility: visible;
+  font-size: 20px;
+}
+
+img {
+  height: 100px;
+  width: 100px;;
+  border-radius: 100%;
+  margin: 3rem 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.5s ease-in-out; 
+}
+
+.redes{
+  margin-top: 1rem;
+  display: flex;
+
+}
+
+.redes a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+padding: 1rem 4rem;
+border: 1px solid rgb(255, 255, 255);
+min-width: 4rem;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: .5s ease-in-out;
+}
+
+a:hover{
+    background-color: rgb(126, 119, 119);
+}
+
+
+/*Conteudo-intro*/
+
+
+.card-intro{
+  width: 500px;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000000;
+  cursor: pointer;
+}
+
+.card-wrapper-intro{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+
+.card-wrapper-intro h1{
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing:  4px;
+  margin: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.card-wrapper-intro p {
+  font-size: 0%;
+  visibility: visible;
+  opacity: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.5s ease-in-out;
+}
+
+.card-intro.card-intro:hover>.card-wrapper-intro p{
+  opacity: 1;
+  visibility: visible;
+  font-size: 20px;
+}
+
+
+.intro-img{
+    width: 300px;
+    height: 400px;
+    border-color: black;
+    border-style: double;
+
+
+}
+
+/*Conteudo*/
+
+.container{
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.card-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+}
+
+
+.card{
+  width: 450px;
+  height: 300px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.card-wrapper{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+
+.card-wrapper h2{
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing:  4px;
+  margin: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.card-wrapper p {
+  font-size: 0;
+  visibility: visible;
+  opacity: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.5s ease-in-out;
+}
+
+.card.card:hover>.card-wrapper p{
+  opacity: 1;
+  visibility: visible;
+  font-size: 18px;
+}
